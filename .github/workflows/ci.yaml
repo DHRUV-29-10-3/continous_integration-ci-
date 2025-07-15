@@ -6,7 +6,7 @@ jobs:
   linting:
     runs-on: ${{ matrix.os }}
 
-    stratergy:
+    strategy:
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
         version: ["3.10.16", "3.11"] 
