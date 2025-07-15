@@ -9,7 +9,12 @@ def sub(a, b):
     return a - b
 
 
-res1 = add(5, 4)
-res2 = sub(5, 4)
+def mul(a,b):
+    return a*b
 
-print(res1, res2)
+
+if __name__ == "__main__":
+    res1 = add(5, 4)
+    res2 = sub(5, 4)
+
+    print(res1, res2)
